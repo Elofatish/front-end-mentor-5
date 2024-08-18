@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+body{
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    
+}
+.containar{
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background-color: var(--Dark-cyan);
+    margin: 100px auto 0 auto;
+     overflow: hidden;
+   
+   
+}
+.containar .imag1 img {
+   
+    width: 600px;
+    margin-left: -200px;
+    margin-top: -150px;
+   
+}
+
+.containar .imag2 img{
+    width: 600px;
+    margin-left: 500px;
+    margin-top: -250px;
+}
+.content{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 300px;
+    border-radius: 15px;
+}
+.content .imag3 img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.imag4 {
+  
+    margin-top: -40px;
+    margin-left: 112.5px;
+    width: 75px;
+    height: 75px;
+    border: 2px solid white;
+    border-radius: 50% 50%;
+
+}
+.h3{
+    color: var(--Very-dark-desaturated-blue);
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+.span{
+    font-size: 18px;
+    color: var(--Dark-gray);
+    padding-left: 10px;
+    
+}
+.lon{
+    color: var(--Dark-gray);
+    padding-left: 110px;
+    
+}
+.titel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+}
+.titel h3{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--Very-dark-desaturated-blue);
+}
+.titel span{
+    font-size: 12px;
+    color: var(--Dark-gray);
+    margin-left: -5px;
+}
+.titel .lik{
+    margin-left: 4px;
+}
+
+
+.attribution{
+   
+    padding-top: 30px;
+}
+
+@media (max-width:576px){
+    .containar{
+        margin: 0;
+        width: 433px;
+       
+    }
+    .content{
+        margin-left: 75px;
+    }
+}
